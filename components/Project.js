@@ -26,10 +26,10 @@ export default function Project({info}) {
 					})}
 				</section>
 				{info.github &&
-					<section className={"c-grid__block is-ico is-pink is-github"}><a className={"is-insideLink"} target={"_blank"} href={info.githubLink}><GitHub color={"inherit"} fontSize={"inherit"}/></a></section>
+					<section className={"c-grid__block is-ico is-pink is-githubProject"}><a className={"is-insideLink"} target={"_blank"} href={info.githubLink}><GitHub color={"inherit"} fontSize={"inherit"}/></a></section>
 				}
 				{info.skills.map((elem,key)=> {
-					return (key > 4 && <Skills info={elem} />)
+					return (key > 3 && <Skills info={elem} />)
 				})}
 
 

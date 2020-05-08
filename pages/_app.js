@@ -88,13 +88,13 @@ export default function App({Component, pageProps}) {
 					background : #a0cbfe!important;
 				}
 				.is-oxatis:before{
-				    display: block;
-				    color : white;
-				    position: absolute;
-				    left : 5px;
-				    top : 5px;
-				    font-size: 12px;
-				    content : "${variables.subtitle.oldEntr} :";
+				  display: block;
+				  color : white;
+				  position: absolute;
+				  left : 5px;
+				  top : 5px;
+				  font-size: 12px;
+				  content : "${variables.subtitle.oldEntr} :";
 				}
 				.is-cv:before{
 				display: block;
@@ -104,6 +104,15 @@ export default function App({Component, pageProps}) {
 			    top : 5px;
 			    font-size: 12px;
 			    content : "${variables.subtitle.cv} :";
+				}
+				.is-githubProject:before{
+				display: block;
+        color : white;
+        position: absolute;
+        left : 5px;
+        top : 5px;
+        font-size: 12px;
+        content : "${variables.subtitle.githubProject} :";
 				}
 				.is-oxatis:hover{
 				    box-shadow: 0 0 15px #192341; 
@@ -485,11 +494,22 @@ export default function App({Component, pageProps}) {
             font-size: 12px;
             content : "${variables.subtitle.projectPres} :";
         }
+        .is-material{
+        	background : #3d80f7!important;
+        	border : 0px none!important;
+        }
+         .is-material:hover{
+         	box-shadow: 0 0 15px #3d80f7;
+         }
         .is-ovh{
 							background: url("/img/ovh.png") no-repeat center center white;
 							background-size: contain;
 						}
-				.is-ovh:hover{
+						 .is-firebase{
+							background: url("/img/firebase.png") no-repeat center center white;
+							background-size: contain;
+						}
+				.is-ovh:hover,  .is-firebase:hover{
 						box-shadow: 0 0 15px #fff; 
 				}
         .is-orange{

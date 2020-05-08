@@ -8,13 +8,13 @@ export default (req, res) => {
 				link: "TODO",
 				host: "/img/ovh.png",
 				classeHost: "is-ovh",
-				github : false,
-				githubLink : '',
+				github : true,
+				githubLink : 'https://github.com/Eik0w/My-portfolio',
 				presentation: [
-					"Le projet tarif-tabac est née à la base d'un projet SEO que je devais réaliser dans le cadre d'un examen lors de ma licence professionnelle.",
-					"Il m'a tout d'abord été difficile de trouver un sujet à la fois intéressant pour moi, et qui mérite que le site soit visité, mais suite à une longue discussion avec mon colocataire de l'époque ( Bebert <3 ), l'idée à éclos ! Donner les informations sur le prix des cigarettes dans les différends pays d'Europe ! ",
-					"À la base, le site était fait en full static, un site de 6 pages HTML en dur qui se suivait. Mais suite au succès assez inattendu du site, j'ai décidé d'en faire un site dynamique avec des pages généré en php. N'ayant pas l'envie de faire la partie PHP, j'ai décidé de collaborer avec un ami à moi pour qu'il puisse faire la partie PHP du site",
-					"Aujourd'hui, le site n'est plus à jour par manque de temps, mais il continue de faire 2000 visites uniques par jour."
+					"J'ai réalisé mon portfolio durant la période de confinement de 2020 suites à la pandémie du COVID-19. ",
+					"Dans un premier temps, j'avais vraiment envie d'apprendre comment utiliser NextJs. Cela faisait un moment que j'entendais parler de la fameuse JAMSTACK, et c'était assez excitant de pouvoir apprendre sur un projet réel",
+					"Le portfolio collait parfaitement à l'utilisation pour NextJS, cela m'a permis de travailler toutes les parties de Next. En plus de cela j'ai pu tester un design que j'avais en tête depuis longtemps, je trouve le résultat pas mal, un mélange de 4 couleurs complémentaires mélangé partout sur le site avec un effet block 'windows10', ça ne plairat pas forcément à tout le monde mais moi ça va :)." ,
+					"Grâce à ce portfolio, je comprends désormais comment fonctionne NextJS, et j'adore ça :) !"
 				],
 				skills : [
 					{
@@ -37,15 +37,15 @@ export default (req, res) => {
 					},
 					{
 						type: "img",
-						img: "/img/js.png",
-						classe : "is-js",
-						name: "Javascript Vanilla"
+						img: "/img/react.png",
+						classe : "is-react",
+						name: "React"
 					},
 					{
 						type: "img",
-						img: "/img/html.png",
-						classe : "is-html",
-						name: "Html"
+						img: "/img/bem.png",
+						classe : "is-bem",
+						name: "Bem Css"
 					},
 					{
 						type : "ico",
@@ -54,9 +54,9 @@ export default (req, res) => {
 					},
 					{
 						type : "img",
-						img : "/img/php.png",
-						name : "Développement Php",
-						classe : "is-php"
+						img : "/img/next.jpg",
+						name : "NextJS",
+						classe : "is-next"
 					},
 				]
 			}

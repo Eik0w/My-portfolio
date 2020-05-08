@@ -48,7 +48,8 @@ const variables = {
 		statut : "Statut du projet",
 		host : "Hébergé via",
 		pLink : "Lien vers le projet",
-		projectPres : "Presentation du projet"
+		projectPres : "Presentation du projet",
+		githubProject : "Lien Github du projet"
 	}
 };
 

@@ -42,12 +42,6 @@ export default (req, res) => {
 						name: "Javascript Vanilla"
 					},
 					{
-						type: "img",
-						img: "/img/html.png",
-						classe : "is-html",
-						name: "Html"
-					},
-					{
 						type : "ico",
 						name : "Design du site",
 						classe : "is-design"
