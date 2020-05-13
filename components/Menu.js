@@ -50,12 +50,16 @@ export default function MyMenu(props) {
 						</Link>
 					</div>
 					<div className={"c-menu__list"}>
-						<div className={"c-menu__listIcon"}>
-							<Drafts fontSize={"inherit"} color={"inherit"}/>
-						</div>
-						<span className={"c-menu__listTxt"}>
-								Contact
+						<Link href={"/me-contacter"}>
+							<a title={"Formulaire de contact Bryan Schmitt"}>
+								<div className={"c-menu__listIcon"}>
+									<Drafts fontSize={"inherit"} color={"inherit"}/>
+								</div>
+								<span className={"c-menu__listTxt"}>
+								Me Contacter
 							</span>
+							</a>
+						</Link>
 					</div>
 					<div className={"c-menu__list"}>
 						<div className={"c-menu__listIcon"}>

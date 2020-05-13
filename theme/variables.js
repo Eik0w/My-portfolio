@@ -49,7 +49,12 @@ const variables = {
 		host : "Hébergé via",
 		pLink : "Lien vers le projet",
 		projectPres : "Presentation du projet",
-		githubProject : "Lien Github du projet"
+		githubProject : "Lien Github du projet",
+		cFirstname : "Votre prénom",
+		cLastname : "Votre nom",
+		cMail : "Votre E-mail",
+		cObject : "Objet du mail",
+		cMessage : "Votre message"
 	}
 };
 
