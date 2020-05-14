@@ -5,7 +5,7 @@ export default function Home(props) {
 				<section className={"c-grid__block is-profil"}></section>
 				<section className={"c-grid__block is-doubleW is-orange is-firstName"}>{props.info.firstName}</section>
 				<section className={"c-grid__block is-doubleW is-blue is-name"}>{props.info.name}</section>
-				<section className={"c-grid__block is-pink is-age"}>{props.info.age}</section>
+				<section className={"c-grid__block is-pink is-age"}>{new Date().getFullYear() - props.info.age}</section>
 				<article className={"c-grid__homeContainer"}>
 					<section className={"c-grid__homeLeftPart"}>
 						<article className={"c-grid__block is-green is-big is-tech"}>

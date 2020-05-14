@@ -23,7 +23,7 @@ export default function Index(props) {
 }
 
 Index.getInitialProps = async function () {
-	const req = await axios.get(apiUrl + '/api/home');
+	const req = await axios.get(apiUrl + '/api/parcours');
 	const rsp = await req.data;
 	return {
 		info: rsp
