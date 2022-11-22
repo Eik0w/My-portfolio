@@ -12,7 +12,7 @@
     "@material-ui/icons": "^4.9.1",
     "@sendgrid/mail": "^7.1.0",
     "axios": "^0.19.2",
-    "next": "9.3.5",
+    "next": "13.0.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "serverless": "^1.70.1"
